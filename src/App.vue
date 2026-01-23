@@ -7,6 +7,7 @@ import VModel from './components/v-model.vue'
 import Ref from './components/ref.vue';
 import Click from './components/click.vue';
 import vBind from './components/v-bind.vue';
+import fetchAxios from './components/fetchAxios.vue';
 </script>
 
 <template>
@@ -16,8 +17,9 @@ import vBind from './components/v-bind.vue';
   <VIf />
   <VModel />
   <Ref />
-  <Click /> -->
-  <vBind />
+  <Click />
+  <vBind /> -->
+  <fetchAxios/>
 </template>
 
 <style scoped>
